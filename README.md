@@ -1,7 +1,7 @@
 ![flurry_LOGO](https://github.com/HeyNinety/FLURRY-godot-4-gpu-snow-particles/assets/68526679/1bc0a9fb-57e6-4b65-aeba-44ec4c2c2cf1)
 
 
-FLURRY is a GPU Snow Particle example project made with the [Godot Game Engine](https://godotengine.org).
+FLURRY is an open-source GPU Snow Particle example project made with the [Godot Game Engine](https://godotengine.org).
 
 
 ## Preview
