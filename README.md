@@ -28,17 +28,18 @@ Like what you see?
 
 
 ## Additional Credit:
- Snowflake textures:
- https://opengameart.org/content/pixel-art-snowflakes
+Snowflake textures:
+https://opengameart.org/content/pixel-art-snowflakes
 
- Snowflake Graphic:
- https://opengameart.org/content/snow-flake
+Snowflake Graphic:
+https://opengameart.org/content/snow-flake
 
- Mountains of Christmas Font by Tart Workshop:
- 
- https://www.1001fonts.com/mountains-of-christmas-font.html
+Mountains of Christmas Font by Tart Workshop:
+
+https://www.1001fonts.com/mountains-of-christmas-font.html
 
 Image by:
-Cameron Casey: [https://www.pexels.com/@alancabello/highlights/](https://www.pexels.com/@camcasey/)https://www.pexels.com/@camcasey/
+Cameron Casey:
+[https://www.pexels.com/@alancabello/highlights/](https://www.pexels.com/@camcasey/)https://www.pexels.com/@camcasey/
 
 
