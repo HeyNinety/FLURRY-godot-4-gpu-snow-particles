@@ -12,8 +12,14 @@ config_version=5
 
 config/name="FLURRY"
 config/description="FLURRY is an open-source GPU Snow Particle example project."
+run/main_scene="res://scenes/world.tscn"
 config/features=PackedStringArray("4.2", "Forward Plus")
 config/icon="res://flurry_ICON.png"
+
+[display]
+
+window/size/viewport_width=1920
+window/size/viewport_height=1080
 
 [filesystem]
 

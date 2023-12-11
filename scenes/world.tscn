@@ -1,0 +1,23 @@
+[gd_scene load_steps=4 format=3 uid="uid://dfejb2gd3cmmo"]
+
+[ext_resource type="PackedScene" uid="uid://bbsuwkjy7sq5d" path="res://scenes/level_geometry.tscn" id="1_epbp0"]
+[ext_resource type="PackedScene" uid="uid://is7gwvsfesrf" path="res://scenes/snow.tscn" id="2_4ggyg"]
+
+[sub_resource type="Environment" id="Environment_eqq04"]
+
+[node name="World" type="Node3D"]
+
+[node name="LevelGeometry" parent="." instance=ExtResource("1_epbp0")]
+
+[node name="Snow" parent="." instance=ExtResource("2_4ggyg")]
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_eqq04")
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(0.707107, 0, 0.707107, 0, 1, 0, -0.707107, 0, 0.707107, 15, 4, 15)
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(0.440556, 0.0385157, 0.896899, -0.731594, 0.594412, 0.333833, -0.52027, -0.803238, 0.29005, 0, 6.8985, 0)
+light_energy = 3.14
+directional_shadow_mode = 0

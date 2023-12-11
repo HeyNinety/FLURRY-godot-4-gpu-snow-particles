@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=3 uid="uid://bbsuwkjy7sq5d"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_lx6fa"]
+albedo_color = Color(0.231373, 0.231373, 0.231373, 1)
+
+[node name="LevelGeometry" type="Node3D"]
+
+[node name="CSGBox3D" type="CSGBox3D" parent="."]
+size = Vector3(20, 1, 20)
+material = SubResource("StandardMaterial3D_lx6fa")
+
+[node name="GPUParticlesCollisionBox3D" type="GPUParticlesCollisionBox3D" parent="CSGBox3D"]
+size = Vector3(20, 1, 20)
