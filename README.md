@@ -9,9 +9,8 @@ FLURRY is an open-source GPU Snow Particle example project made with the [Godot 
 
 
 ## Features
-- **Media Controls:** Play and pause button.
-- **Volume Slider:** Adjust the volume by using the Hslider.
-
+- **Billboard Particles:** Particles will always face towards the camera.
+- **Snowflake Variation:** 18 snowflake textures!
 
 
 ## Details
