@@ -5,7 +5,7 @@ FLURRY is an open-source GPU Snow Particle example project made with the [Godot 
 
 
 ## Preview
->>screenshot here
+![ezgif com-video-to-gif](https://github.com/HeyNinety/FLURRY-godot-4-gpu-snow-particles/assets/68526679/3919c202-a402-4fc8-83bd-643a7687878b)
 
 
 ## Features
