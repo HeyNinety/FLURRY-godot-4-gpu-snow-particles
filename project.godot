@@ -14,3 +14,7 @@ config/name="FLURRY"
 config/description="FLURRY is an open-source GPU Snow Particle example project."
 config/features=PackedStringArray("4.2", "Forward Plus")
 config/icon="res://flurry_ICON.png"
+
+[filesystem]
+
+import/blender/enabled=false

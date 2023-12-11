@@ -1,4 +1,6 @@
-[gd_scene load_steps=5 format=3 uid="uid://is7gwvsfesrf"]
+[gd_scene load_steps=7 format=3 uid="uid://is7gwvsfesrf"]
+
+[ext_resource type="Material" uid="uid://cf0jhdv12f7ys" path="res://materials/snowflake_material.tres" id="1_7fbx2"]
 
 [sub_resource type="Curve" id="Curve_56cfi"]
 _data = [Vector2(0, 1), 0.0, 0.0, 0, 0, Vector2(0.298701, 1), -0.207827, -0.207827, 0, 0, Vector2(0.668831, 0), 0.0, 0.0, 0, 0]
@@ -21,23 +23,27 @@ collision_mode = 1
 collision_friction = 0.0
 collision_bounce = 0.0
 
-[sub_resource type="SphereMesh" id="SphereMesh_2w6ke"]
+[sub_resource type="QuadMesh" id="QuadMesh_1xesd"]
+material = ExtResource("1_7fbx2")
 
-[node name="Node3D" type="Node3D"]
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_lx6fa"]
+albedo_color = Color(0.231373, 0.231373, 0.231373, 1)
 
-[node name="GPUParticles3D" type="GPUParticles3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 7.8935, 0)
+[node name="Snow" type="Node3D"]
+
+[node name="SnowParticle" type="GPUParticles3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 20, 0)
 cast_shadow = 0
-amount = 200
-lifetime = 5.0
+amount = 300
+lifetime = 7.0
 randomness = 0.5
-visibility_aabb = AABB(-8.98039, -8.90606, -4, 17.9608, 17.8121, 8)
+visibility_aabb = AABB(-10, -24.5864, -10.0993, 20, 24.5368, 20.1985)
 process_material = SubResource("ParticleProcessMaterial_ua8we")
-draw_pass_1 = SubResource("SphereMesh_2w6ke")
+draw_pass_1 = SubResource("QuadMesh_1xesd")
 
 [node name="CSGBox3D" type="CSGBox3D" parent="."]
-size = Vector3(19.4194, 1, 16.9359)
+size = Vector3(20, 1, 20)
+material = SubResource("StandardMaterial3D_lx6fa")
 
 [node name="GPUParticlesCollisionBox3D" type="GPUParticlesCollisionBox3D" parent="CSGBox3D"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.496199, 0)
-size = Vector3(18.6698, 2, 19.9393)
+size = Vector3(20, 1, 20)
